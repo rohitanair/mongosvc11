@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "databaseType": "couchbase",
+    "devDatabaseType": "couchbase",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": "kafka",
+    "nativeLanguage": "en",
+    "packageName": "com.infy.tele",
+    "packageFolder": "com/infy/tele",
+    "prodDatabaseType": "couchbase",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": true,
+    "testFrameworks": [
+      "gatling"
+    ],
+    "websocket": false,
+    "baseName": "mongosvc11",
+    "applicationType": "microservice",
+    "buildTool": "maven",
+    "serverPort": "8080",
+    "skipUserManagement": true,
+    "jhipsterVersion": "6.1.2",
+    "clientPackageManager": "npm",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "NDk4ODdlZDhmNDNmYTZiYzBiZTY1ODI1YmFjYmMxNDdlMGYwZjNkZjkyOWU4ODU4YjNlMTRkNDE5ZjQwZWJlMTM3NThmNTg3ZTM3M2EzMTJlYmY1ZjAxNDk0YTY3MmI2ZjMyYzhkYmY2M2VjYzBhNTVkZGZkYTgzNTRiYzdmYTE=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "entities": [
+    "Cust",
+    "Emp"
+  ]
+}
