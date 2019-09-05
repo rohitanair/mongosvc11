@@ -34,7 +34,7 @@ spring:
   application: {name: mongosvc11}
   couchbase:
     bucket: {password: couchbase, name: default}
-    bootstrap-hosts: couchbase-example.smartfan-dev
+    bootstrap-hosts: couchbase-example.sprinteondemo-dev
   kafka:
     producer: {bootstrap-servers: 'http://localhost:9092', value-serializer: org.apache.kafka.common.serialization.StringSerializer,
       key-serializer: org.apache.kafka.common.serialization.StringSerializer}
